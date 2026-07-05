@@ -1,0 +1,99 @@
+{
+  "version": "tools-v1",
+  "repository": "yancy520666/system-toolkit-tools",
+  "note": "Remote toolbox assets from GitHub Release. The app downloads on demand and verifies SHA256.",
+  "tools": {
+    "dxRepair": {
+      "version": "local",
+      "size": 1072128,
+      "sha256": "5F098ECAB031F31BBD6BBC2323F0F8DB4850B5DBDB51A7E14EC07E81374CA7DD",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/dx-repair.exe",
+      "assetName": "dx-repair.exe"
+    },
+    "runtime": {
+      "version": "local",
+      "size": 80665078,
+      "sha256": "3468E045A2244F6DFB37DF7F022A61CC79E1ABF1216ABEE2BD2CA095AAEF9E24",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/runtime-libraries.exe",
+      "assetName": "runtime-libraries.exe"
+    },
+    "activation": {
+      "version": "local",
+      "size": 968704,
+      "sha256": "7DAFAE28CDFB72F1BA7B6963F18C58CD74BE79B365DBAC7CF492D949691FE425",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/windows-activation.exe",
+      "assetName": "windows-activation.exe"
+    },
+    "disableUac": {
+      "version": "local",
+      "size": 189732,
+      "sha256": "00A3E8C04C62965BAA01494F15FE36D1D9EE6CC6626E4E5FFB804DB775ACB0F8",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/disable-uac.exe",
+      "assetName": "disable-uac.exe"
+    },
+    "disableSecurityUpdate": {
+      "version": "local",
+      "size": 522552,
+      "sha256": "89835ACC8E83DC7EFAB5B4DF6066E3B4258D37720B02262A95C02DE256A5BD7A",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/disable-security-update.exe",
+      "assetName": "disable-security-update.exe"
+    },
+    "driverToolVip": {
+      "version": "local",
+      "size": 26195121,
+      "sha256": "17768719B4FECFF3DB3D3782645D54E8B12B30F815E349A4A67E4D628102D680",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/driver-tool-vip.exe",
+      "assetName": "driver-tool-vip.exe"
+    },
+    "disableCoreIsolation": {
+      "version": "local",
+      "size": 91136,
+      "sha256": "CD8133446CA7479C8641A6CA7564E6CD780AA1F36997ADCE71EFF4952D63A67A",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/disable-core-isolation.exe",
+      "assetName": "disable-core-isolation.exe"
+    },
+    "sevenZip": {
+      "version": "26.02",
+      "size": 1657896,
+      "sha256": "6745FA76DC2EA031596D8678F6F6B99C3C1B435B4164A63485ADBBC7B8D82EF0",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/7z2602-x64.exe",
+      "assetName": "7z2602-x64.exe"
+    },
+    "geekUninstaller": {
+      "version": "local",
+      "size": 7534984,
+      "sha256": "1CDE4D0AA4141500CA8603E0FF61164BCC92641FB41BF62BE044F561082D0405",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/geek-uninstaller.exe",
+      "assetName": "geek-uninstaller.exe"
+    },
+    "browserHijackClean": {
+      "version": "local",
+      "size": 11306,
+      "sha256": "05F2B3BDD9C762E967FA71A1581B2806D77548762789C493CCF6205B35A1D672",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/browser-hijack-clean.bat",
+      "assetName": "browser-hijack-clean.bat"
+    },
+    "oneKeyActivate": {
+      "version": "local",
+      "size": 1542,
+      "sha256": "4E13B906F0D87310C4BD0EF478E0A100CEDE5EFB6D404F49E2BD0D9B82F48DD0",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/one-key-activate-windows.bat",
+      "assetName": "one-key-activate-windows.bat"
+    },
+    "archiveTool": {
+      "version": "local",
+      "size": 2337547,
+      "sha256": "6A7CCC42EB60402A5220B3769AF4832EF392B3E743E0B093F9494E40227060C9",
+      "downloadUrl": "https://github.com/yancy520666/system-toolkit-tools/releases/download/tools-v1/archive-tool.exe",
+      "assetName": "archive-tool.exe"
+    },
+    "visualFix": {
+      "version": "local",
+      "size": 9356,
+      "sha256": "98364DE2FA2A671350BD52601B386AF093A225EFEE23351D8711C7C09DEFE590",
+      "downloadUrl": "https://raw.githubusercontent.com/yancy520666/system-toolkit-tools/main/tools-v1/win11-visual-fix.bat",
+      "assetName": "win11-visual-fix.bat",
+      "aliases": ["win11-visual-fix.bat"]
+    }
+  }
+}
