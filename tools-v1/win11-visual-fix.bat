@@ -20,20 +20,6 @@ exit /b
 
 # POWERSHELL_PAYLOAD
 $ErrorActionPreference = 'SilentlyContinue'
-$backupRoot = Join-Path (Get-Location) ('visual-fix-backup-' + (Get-Date -Format 'yyyyMMdd-HHmmss'))
-New-Item -ItemType Directory -Path $backupRoot -Force | Out-Null
-
-function Export-Key($name, $path) {
-  $file = Join-Path $backupRoot ($name + '.reg')
-  & reg.exe export $path $file /y 2>$null | Out-Null
-}
-
-Export-Key 'Desktop' 'HKCU\Control Panel\Desktop'
-Export-Key 'WindowMetrics' 'HKCU\Control Panel\Desktop\WindowMetrics'
-Export-Key 'ExplorerAdvanced' 'HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
-Export-Key 'ClassicContextMenu' 'HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}'
-Export-Key 'DesktopBackgroundHandlersCU' 'HKCU\Software\Classes\Directory\Background\shellex\ContextMenuHandlers'
-Export-Key 'DesktopBackgroundHandlersLM' 'HKLM\Software\Classes\Directory\Background\shellex\ContextMenuHandlers'
 
 # Taskbar center on Windows 11.
 New-Item -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Force | Out-Null
@@ -181,4 +167,3 @@ Start-Service -Name FontCache -ErrorAction SilentlyContinue
 Stop-Process -Name explorer -Force -ErrorAction SilentlyContinue
 Start-Process explorer.exe
 Write-Host "Win11 visual experience settings restored."
-Write-Host "Backup folder: $backupRoot"
