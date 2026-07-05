@@ -91,7 +91,7 @@
       "version": "local",
       "size": 8462,
       "sha256": "02966F71B87A09419466D83CB68DCE3EC60C3312D1EB48B7ED0E8F62BFFBF283",
-      "downloadUrl": "https://raw.githubusercontent.com/yancy520666/system-toolkit-tools/main/tools-v1/win11-visual-fix.bat",
+      "downloadUrl": "https://raw.githubusercontent.com/yancy520666/system-toolkit-tools/9f769323877c263f7380e0187f47c020233042f0/tools-v1/win11-visual-fix.bat",
       "assetName": "win11-visual-fix.bat",
       "aliases": ["win11-visual-fix.bat"]
     }
