@@ -89,8 +89,8 @@
     },
     "visualFix": {
       "version": "local",
-      "size": 9356,
-      "sha256": "98364DE2FA2A671350BD52601B386AF093A225EFEE23351D8711C7C09DEFE590",
+      "size": 8462,
+      "sha256": "02966F71B87A09419466D83CB68DCE3EC60C3312D1EB48B7ED0E8F62BFFBF283",
       "downloadUrl": "https://raw.githubusercontent.com/yancy520666/system-toolkit-tools/main/tools-v1/win11-visual-fix.bat",
       "assetName": "win11-visual-fix.bat",
       "aliases": ["win11-visual-fix.bat"]
