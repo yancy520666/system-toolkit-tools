@@ -89,9 +89,9 @@
     },
     "visualFix": {
       "version": "local",
-      "size": 8462,
-      "sha256": "02966F71B87A09419466D83CB68DCE3EC60C3312D1EB48B7ED0E8F62BFFBF283",
-      "downloadUrl": "https://raw.githubusercontent.com/yancy520666/system-toolkit-tools/9f769323877c263f7380e0187f47c020233042f0/tools-v1/win11-visual-fix.bat",
+      "size": 9237,
+      "sha256": "2D397083F7473BEB5DE0BFE21BCD8423832CA359D932CFC6A49800C8C0DB6F65",
+      "downloadUrl": "https://raw.githubusercontent.com/yancy520666/system-toolkit-tools/41f0a5dd0dde9f34b810d5459cb4ca7cca1a3e75/tools-v1/win11-visual-fix.bat",
       "assetName": "win11-visual-fix.bat",
       "aliases": ["win11-visual-fix.bat"]
     }
