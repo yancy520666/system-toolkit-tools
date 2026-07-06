@@ -25,6 +25,15 @@ $ErrorActionPreference = 'SilentlyContinue'
 New-Item -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Force | Out-Null
 Set-ItemProperty -LiteralPath 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Name TaskbarAl -Type DWord -Value 1
 
+# Display and text scale at 100%.
+New-Item -Path 'HKCU:\Control Panel\Desktop' -Force | Out-Null
+Set-ItemProperty -LiteralPath 'HKCU:\Control Panel\Desktop' -Name LogPixels -Type DWord -Value 96
+Set-ItemProperty -LiteralPath 'HKCU:\Control Panel\Desktop' -Name Win8DpiScaling -Type DWord -Value 0
+New-Item -Path 'HKCU:\Control Panel\Desktop\WindowMetrics' -Force | Out-Null
+Set-ItemProperty -LiteralPath 'HKCU:\Control Panel\Desktop\WindowMetrics' -Name AppliedDPI -Type DWord -Value 96
+New-Item -Path 'HKCU:\Software\Microsoft\Accessibility' -Force | Out-Null
+Set-ItemProperty -LiteralPath 'HKCU:\Software\Microsoft\Accessibility' -Name TextScaleFactor -Type DWord -Value 100
+
 # Restore Windows 11 default compact context menu.
 Remove-Item -LiteralPath 'HKCU:\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}' -Recurse -Force -ErrorAction SilentlyContinue
 
@@ -167,3 +176,4 @@ Start-Service -Name FontCache -ErrorAction SilentlyContinue
 Stop-Process -Name explorer -Force -ErrorAction SilentlyContinue
 Start-Process explorer.exe
 Write-Host "Win11 visual experience settings restored."
+Write-Host "Display scale and text size changes may require sign out or restart to fully apply."
